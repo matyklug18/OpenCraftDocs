@@ -29,9 +29,15 @@ Anything that can be weared as an accessory.
 Anything that can be burned in a furnace.
 * IBurnHeatable
 Anything that can power a furnace.
+* IEnchantable
+Anything, that can be enchanted
+* IValuable
+Anything, that can be traded.
+* ITransmutable
+Anything, that can be transmutated.
 
 #### Blocks
-* IBreakable (DEFAULT)
+* IBreakable ***(DEFAULT)***
 Anything that can be broken.
 * IInsulator
 Anything that can stop any amount of heat.
@@ -61,3 +67,25 @@ Anything, that changes how blocks are mined.
 Anything, that can attack enemies.
 * IItemStorage
 Anything, that stores items.
+* IMultiPart
+Anything, that allows other multi parts to coexist in the same block space.
+* IHeating
+Anything, that heats its surroundings.
+* ICooling
+Anything, that cools its surroundings.
+* IPolluting
+Anything, that pollutes its env.
+* ILiquid
+Anything, that is a liquid.
+* IGas
+Anything, that is a gas.
+* IMultiBlock
+Anything, that can form a multiblock.
+* IHanging
+Anything, that hangs from two points, connecting them in some way.
+* IConnected
+Anything, that is connected from 3 or more points, forming a surface.
+* IChiseable
+Anything, that can be chiseled.
+* IDynamicModel
+Anything with a dynamic model.
