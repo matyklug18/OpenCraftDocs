@@ -1,4 +1,20 @@
 # OpenCraftDocs
+## Ideas
+```
+RPG elements, like skills and classes
+a spell system
+a heat system, to make the survival more interesting
+NPC cities and villages, with trading
+a scripting lang for modding
+kinda simulated water
+airships, ships, planes and submarines
+logic circuits, similar to redstone (called red signals)
+computers
+electricity, with many generators and machines. nuclear reactors, fusion reactors, huge wind turbines, etc
+torque(name not fully decided), for early game
+a mana energy system
+some adventure elements, like dungeons.
+```
 ## Modding
 ### Objects
 An object is anything in game. a Block, an Item, an Entity, a Spell, etc.
@@ -35,10 +51,14 @@ Anything, that can be enchanted
 Anything, that can be traded.
 * ITransmutable
 Anything, that can be transmutated.
+* IHasDurability
+Anything, that has durability.
+* IRepairable
+Anything, that can be repaired.
 
 #### Blocks
-* IBreakable ***(DEFAULT)***
-Anything that can be broken.
+* IMineable ***(DEFAULT)***
+Anything that can be mined.
 * IInsulator
 Anything that can stop any amount of heat.
 * IRedSignal
@@ -89,3 +109,7 @@ Anything, that is connected from 3 or more points, forming a surface.
 Anything, that can be chiseled.
 * IDynamicModel
 Anything with a dynamic model.
+* IColored
+Anything that can be colored.
+IShaded ***(DEFAULT)***
+Anything, that has a shader on.
